@@ -1,0 +1,55 @@
+.card-body  .help-block{
+    color: red;
+}
+form div.required label.control-label:after {
+
+  content:" * ";
+
+  color:red;
+
+}
+.student-view {
+  background-image: url(../../images/panel_bg.png); 
+  background-size: contain;
+}
+/* span.doc_file{
+  position: absolute;
+}
+#student-document_typeid label{
+  min-width: 150px;
+} */
+.hide-class{
+  display: inline-block;
+} 
+.form-check-label.hide-class-label {
+  min-width: 150px;
+}
+.form-group.field-student-is_copy {
+  position: absolute;
+  padding-left: 200px;
+}
+.form-group.field-employee-is_copy {
+  position: absolute;
+  padding-left: 200px;
+}
+.add-emp-err-summary .error-summary{
+  color: #a94442;
+  background: #fde1df;
+  border: 0px;
+}
+.index-card{
+  border:0px;
+}
+.index-card .summary {
+  margin-bottom: 10px;
+  /* float: right; */
+}
+.table.table-striped.table-bordered thead tr th a {
+  color: #424242;
+}
+.table.table-borderless tbody tr th {
+ width: 30%;
+}
+.hide{
+  display: none;
+}
